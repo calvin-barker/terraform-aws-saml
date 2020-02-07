@@ -17,3 +17,10 @@ variable "roles" {
   }))
   default = null
 }
+
+variable "create_billing_role" {
+  default = false
+}
+variable "create_logging_role" {
+  default = false
+}
